@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+:root{
+    --light-gray: rgb(50, 50, 50);
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+    max-width: 100%;
+    background-color: var(--light-gray);
+}
+
+button{cursor: pointer;}
+
+ul{
+    list-style: none;
+}
+
+li{
+    margin: 0.5rem 0;
+    padding: 0.5rem 0;
+}
+
+th{
+    padding: 0.5rem;
+    border: 1px solid black;
+}
+
+.header{
+    padding: 2rem 1rem;
+    background-color: var(--light-gray);
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.logo-container{
+    position: absolute;
+    left: 1rem;
+    top: 1.5rem;
+}
+
+.user-container{
+    position: absolute;
+    right: 1rem;
+    top: 1.5rem;
+}
+
+.sidebar-container{
+    display: none;
+    margin: 0 auto;
+    padding: 1rem 0;
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width: 100%;
+    background-color: var(--light-gray);
+    color: white;
+}
+
+#close-btn{
+    margin: 1rem;
+    position: absolute;
+    right: 0;
+    top: 1.2rem;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    padding: 0.2rem 0.5rem;
+}
+
+.managment-btns{
+    padding: 0.5rem 1rem;
+    background-color: white;
+    color: var(--light-gray);
+    border: 1px solid var(--light-gray);
+    border-radius: 0.5rem;
+}
+
+.content-container{
+    width: 100%;
+    /* display: flex; */
+    margin: 0.5rem auto;
+}
+
+#sidebar{
+    padding: 0.5rem 1rem;
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+}
+
+.custom-content{
+    max-width: 100%;
+    margin: 1rem auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+    background-color: white;
+    border: 1px solid white;
+}
+
+
+#clients{display: none;}
+#settings{display: none;}
+
+.communication-btns{
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: rgba(255, 166, 0, 0.774);
+    color: white;
+    border: 1px solid rgba(255, 166, 0, 0.774);
+    font-size: 1rem;
+}
+
+.trigger-btns{
+    padding: 0.5rem 1rem;
+    background-color: rgba(255, 255, 255, 0);
+    color: inherit;
+    border: 1px solid rgb(225, 225, 225);
+}
+
+.edit-btn{
+    padding: 0.5rem 1rem;
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+}
+
+.modal{
+    display: none;
+    margin: 0 auto;
+    padding: 1rem 0;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    height:50%;
+    width: 100%;
+    background-color: white;
+}
+
+.btns-container{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btns-container button{
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
+
+.btns-container button:first-child{
+    background-color: orange;
+    color: white;
+}
+
+.btns-container button:last-child{
+    background-color: red;
+    color: white;
+}
+
+.form{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form input{
+    outline: none;
+    padding: 1rem 1.5rem;
+    margin: 0 0.5rem;
+}
+
+.form button{
+    margin: 0.5rem 0;
+    padding: 0.5rem 1rem;
+    background-color: rgba(132, 0, 255, 0.589);
+    color: white;
+    border: 1px solid rgba(132, 0, 255, 0.589);
+    border-radius: 1rem;
+}
+
+
+.edit-form{display: none;}
+.delete-form{display: none;}
+#message{
+    margin: 0 auto;
+    text-align: center;
+    color: green;
+}
+
